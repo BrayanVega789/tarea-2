@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: 'Architects Daughter', cursive;
+}
+   h1 {
+    text-align: center;
+}
+div {
+    text-align: center;
+}
+div button{
+    color:blue;
+    background: ;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+div button:hover {
+    color: red;
+    background: violet;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+div {
+top: 80%
+}
+.operaciones  {
+    border: 10px  blueviolet double;
+    padding: 10px;
+border-block-end: 50px ;
+border-radius: 100px;
+margin: 400px;
+margin-top: 50px;
+}
+input {
+background-image: linear-gradient(rgb(255, 211, 211), rgb(205, 255, 205));
+}
+body {
+    background: url('src/Fondos-web-Texturas-web-abtacto-21.jpg') no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative
+}
